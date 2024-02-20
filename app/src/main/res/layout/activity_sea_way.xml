@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea_fon"
+    tools:context=".seaWay">
+
+    <ImageButton
+        android:id="@+id/One"
+        android:layout_width="338dp"
+        android:layout_height="451dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="56dp"
+        android:contentDescription="@string/btn_er"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dolphi22" />
+</androidx.constraintlayout.widget.ConstraintLayout>

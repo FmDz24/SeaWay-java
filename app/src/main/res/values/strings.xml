@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SeaWay</string>
+    <string name="btn_2">Что\nделать?</string>
+    <string name="btn_3">О программе.</string>
+    <string name="btn_4">В море!</string>
+    <string name="btn_error">Ошб</string>
+    <string name="btn_er">Ой</string>
+    <string name="mark">Medvision\n Developers</string>
+    <string name="abDev">Приложение\n разработано\n Дмитрием Медведько,\n 20 января 2024 г.\n в целях обучения и развлечения.</string>
+    <string name="title_activity_dolf3">Dolf_3</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="sea_txt">to sea</string>
+</resources>

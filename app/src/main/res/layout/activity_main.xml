@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#69B9DE"
+    android:onClick="onClick6"
+    android:textDirection="ltr"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="200dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/dop_button"
+            android:layout_width="95dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:onClick="toDo"
+            android:text="@string/sea_txt"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button2_o"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginEnd="10sp"
+            android:backgroundTint="#F44336"
+            android:marqueeRepeatLimit="3"
+            android:onClick="onClick"
+            android:text="@string/btn_2"
+            app:cornerRadius="0sp"
+            app:strokeColor="#000000"
+            app:strokeWidth="5sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:backgroundTint="#4CAF50"
+            android:onClick="About"
+            android:text="@string/btn_3"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title_o"
+        android:layout_width="176dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#447194"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_dlf_o"
+        android:layout_width="119dp"
+        android:layout_height="83dp"
+        android:background="@android:color/transparent"
+        android:onClick="toDo2"
+        android:src="@mipmap/ic_dolphin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        android:importantForAccessibility="no" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
